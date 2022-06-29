@@ -1,0 +1,20 @@
+{
+  "name": "desafio_cinco",
+  "version": "1.0.0",
+  "main": "pug.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "description": ""
+}

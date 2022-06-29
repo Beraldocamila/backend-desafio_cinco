@@ -1,0 +1,19 @@
+html
+    head
+        link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous")        
+        title Products
+
+    body
+        h2 Ingrese Producto 
+        form(action="/api/products" method="post" enctype="application/json")
+            div(class="mb-3")
+                label(for="title") Nombre
+                input(type="text" id="title")
+            div(class="mb-3")
+                label(for="price") Precio
+                input(type="number" id="price")
+            div(class="mb-3")
+                label(for="thumbnail") URL
+                input(type="text" id="thumbnail")
+            button(type="submit" class="btn btn-primary") Ingresar
+        a(href="/products") Ver productos 
